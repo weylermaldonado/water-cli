@@ -3,7 +3,7 @@ const water =  require('./Water/water');
 const colors = require('colors');
 
 const argv = require('yargs').options({
-    direccion: {
+    address: {
         alias: 'd',
         desc: 'Dirección de la ciudad para obtener el clima',
         demand: true
